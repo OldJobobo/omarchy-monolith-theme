@@ -5,26 +5,26 @@
  * Generated from palette colors selected in Aether
  */
 
-/* Dynamic Color Palette */
-@define-color background #100e11;
-@define-color foreground #faf9f9;
+/* Dynamic Color Palette (Rosé Pine Moon) */
+@define-color background #232136;
+@define-color foreground #e0def4;
 
-@define-color black #100e11;
-@define-color red #e6b2b8;
-@define-color green #78c0d3;
-@define-color yellow #e3cab5;
-@define-color blue #7e7ece;
-@define-color magenta #e1afe1;
-@define-color cyan #7ebcce;
-@define-color white #faf9fa;
-@define-color bright_black #ae9bb0;
-@define-color bright_red #e8b0b7;
-@define-color bright_green #90cfe0;
-@define-color bright_yellow #e3c9b5;
-@define-color bright_blue #7e7ece;
-@define-color bright_magenta #e3b5e3;
-@define-color bright_cyan #94cbda;
-@define-color bright_white #faf9f9;
+@define-color black #232136;
+@define-color red #eb6f92;
+@define-color green #3e8fb0;
+@define-color yellow #f6c177;
+@define-color blue #9ccfd8;
+@define-color magenta #c4a7e7;
+@define-color cyan #ea9a97;
+@define-color white #e0def4;
+@define-color bright_black #6e6a86;
+@define-color bright_red #eb6f92;
+@define-color bright_green #3e8fb0;
+@define-color bright_yellow #f6c177;
+@define-color bright_blue #9ccfd8;
+@define-color bright_magenta #c4a7e7;
+@define-color bright_cyan #ea9a97;
+@define-color bright_white #e0def4;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;
@@ -187,4 +187,3 @@
 * {
     border-radius: 0;
 }
-
