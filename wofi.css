@@ -6,6 +6,8 @@
 @define-color gray4 #f6c177;  /* gold */
 @define-color gray5 #eb6f92;  /* love */
 @define-color fg_bright #e0def4;
+@define-color selection_bg #3e8fb0; /* pine */
+@define-color selection_fg #e0def4;
 
 window {
     background-color: @bg;
@@ -19,8 +21,8 @@ input {
 }
 
 input:selected {
-    background-color: @gray1;
-    color: @fg_bright;
+    background-color: @selection_bg;
+    color: @selection_fg;
 }
 
 #entry {
@@ -31,8 +33,8 @@ input:selected {
 }
 
 #entry:selected {
-    background-color: @gray1;
-    color: @fg_bright;
+    background-color: @selection_bg;
+    color: @selection_fg;
 }
 
 scrollbar {

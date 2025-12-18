@@ -1,0 +1,10 @@
+[color]
+
+# Vertical gradient (amplitude: bottom -> top)
+gradient = 1
+gradient_color_1 = '#3e8fb0'  # pine
+gradient_color_2 = '#eb6f92'  # love
+gradient_color_3 = '#ea9a97'  # rose
+
+# Blend direction for the vertical gradient
+blend_direction = 'up'

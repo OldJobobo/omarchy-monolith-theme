@@ -1,6 +1,24 @@
-@define-color selected-text #c4a7e7;
-@define-color text #e0def4;
+@define-color selection-bg #3e8fb0;
+@define-color selection-fg #ea9a97;
+@define-color selected-text @selection-fg;
+@define-color text #6e6a86;
 @define-color base #232136;
-@define-color border #908caa;
+@define-color border #c4a7e7;
 @define-color foreground #e0def4;
 @define-color background #232136;
+
+window {
+   background-color: transparent;
+   background-image: radial-gradient(circle at center,
+
+         rgba(0, 30, 73, 0.35) 0%,
+         rgba(0, 8, 23, 0.65) 60%,
+         rgba(0, 4, 12, 0.85) 100%);
+   backdrop-filter: blur(1.5px);
+   border: none;
+   border-width: 0;
+   border-color: @border;
+   padding: 0;
+   /* outline: none;  */
+   box-shadow: none;
+ }
