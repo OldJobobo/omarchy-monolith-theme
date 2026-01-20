@@ -1,8 +1,12 @@
+[window]
+opacity = 0.3
+
 [colors]
+transparent_background_colors = true
+
 [colors.primary]
 background = "#232136"
 foreground = "#e0def4"
-transparent_background_colors = true
 
 
 [colors.normal]
@@ -33,8 +37,6 @@ cursor = "#e0def4"
 text = "#e0def4"
 background = "#3e8fb0"
 
-[window]
-opacity = 0.85
 
 
 
