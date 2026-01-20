@@ -31,11 +31,10 @@ cursor = "#e0def4"
 text = "#e0def4"
 background = "#3e8fb0"
 
-window:
-  opacity: 1.0
+[window]
+opacity = 0.85
 
-colors:
-  transparent_background_colors: true
+[colors]
+transparent_background_colors = true
 
-background_opacity: 0.3
 
